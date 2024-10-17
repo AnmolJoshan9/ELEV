@@ -1,0 +1,85 @@
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+.main-wrapper {
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.floor-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lift {
+  border: 2px solid #b5b5b5;
+  width: 170px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.btn {
+  color: #fff;
+  padding: 12px 18px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 0 15px;
+  width: 110px;
+  transition: background-color 0.3s ease;
+}
+
+.text {
+  width: 85px;
+  text-align: center;
+}
+
+.btn-call {
+  background-color: #53a94f;
+}
+
+.btn-waiting {
+  background-color: #f05050;
+}
+
+.btn-arrived {
+  background-color: white;
+  color: #53a94f;
+  border: 2px solid #53a94f;
+}
+
+.floor-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lift-image {
+  height: 55px;
+  width: 55px;
+}
+
+.lift-red {
+  fill: #e74c3c;
+}
+
+.lift-green {
+  fill: #53a94f;
+}
+
+.lift-black {
+  fill: #333;
+}
